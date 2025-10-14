@@ -1,0 +1,6 @@
+.dockerignore
+.env.local
+.git
+.gitignore
+CLAUDE.md
+README.md

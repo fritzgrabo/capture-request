@@ -1,0 +1,7 @@
+{
+  "name": "capture-request",
+  "image": "ghcr.io/rails/devcontainer/images/ruby:3.4.2",
+  "runArgs": ["--name", "${localWorkspaceFolderBasename}"],
+  "forwardPorts": [8080],
+  "postCreateCommand": "bundle install"
+}
